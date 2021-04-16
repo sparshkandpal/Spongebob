@@ -5,11 +5,6 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(
-  <div>
-    <App />
-  </div>
-  ,
-  document.getElementById('root')
+ReactDOM.render( <App />, document.getElementById('root')
 );
 registerServiceWorker();
